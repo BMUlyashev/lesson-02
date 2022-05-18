@@ -18,7 +18,7 @@ public class Main {
         float totalBoxerWeight = firstBoxerWeight + secondBoxerWeight;
         System.out.println("Общий вес боксеров " + totalBoxerWeight + " кг.");
 
-        float differenceBoxersWeight = secondBoxerWeight - firstBoxerWeight;
+        float differenceBoxersWeight = Math.abs(secondBoxerWeight - firstBoxerWeight);
         System.out.println("Разница в весе боксеров " + differenceBoxersWeight + " кг.");
         System.out.println();
 
@@ -66,11 +66,11 @@ public class Main {
         float kristinaNewSalary = kristinaSalary * 1.1f;
 
         System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " +
-                (mashaNewSalary - mashaSalary) + " рублей.");
+                12 * (mashaNewSalary - mashaSalary) + " рублей.");
         System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " +
-                (denisNewSalary - denisSalary) + " рублей.");
+                12 * (denisNewSalary - denisSalary) + " рублей.");
         System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " +
-                (kristinaNewSalary - kristinaSalary) + " рублей.");
+                12 * (kristinaNewSalary - kristinaSalary) + " рублей.");
 
         mashaSalary = mashaNewSalary;
         denisSalary = denisNewSalary;
