@@ -2,6 +2,14 @@ package ru.skypro;
 
 public class Main {
     public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+    }
+
+    public static void task1() {
         byte byteVariable = 1;
         short shortVariable = 200;
         int intVariable = 1000;
@@ -12,7 +20,9 @@ public class Main {
 
         char charVariable = '!';
         boolean boolVariable = true;
+    }
 
+    public static void task2() {
         float firstBoxerWeight = 78.2f;
         float secondBoxerWeight = 82.7f;
         float totalBoxerWeight = firstBoxerWeight + secondBoxerWeight;
@@ -21,7 +31,9 @@ public class Main {
         float differenceBoxersWeight = Math.abs(secondBoxerWeight - firstBoxerWeight);
         System.out.println("Разница в весе боксеров " + differenceBoxersWeight + " кг.");
         System.out.println();
+    }
 
+    public static void task3() {
         int bananasAmount = 5;
         int bananaOnePieceWeight = 80;
 
@@ -43,7 +55,9 @@ public class Main {
         float breakfastWeightInKilograms = breakfastWeightInGrams / 1000f;
         System.out.println("Вес завтрака " + breakfastWeightInKilograms + " кг");
         System.out.println();
+    }
 
+    public static void task4() {
         int weightToLoseInKilograms = 7;
         int firstDietPerDay = 250;
         int secondDietPerDay = 500;
@@ -56,7 +70,9 @@ public class Main {
                 daysAmountSecondDiet + " дней.");
         System.out.println("В среднем может потребоваться " + daysAmountAverageDiet);
         System.out.println();
+    }
 
+    public static void task5() {
         float mashaSalary = 67_760f;
         float denisSalary = 83_690f;
         float kristinaSalary = 76_230f;
