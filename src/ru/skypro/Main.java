@@ -7,6 +7,10 @@ public class Main {
         task3();
         task4();
         task5();
+        // повышенная сложность
+        task6();
+        task7();
+        task8();
     }
 
     public static void task1() {
@@ -91,5 +95,33 @@ public class Main {
         mashaSalary = mashaNewSalary;
         denisSalary = denisNewSalary;
         kristinaSalary = kristinaNewSalary;
+    }
+
+    public static void task6() {
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+
+        int result = a * (b + (c - d * e));
+        result = -result;
+        System.out.println("Result = " + result);
+    }
+
+    public static void task7() {
+        int a = 5;
+        int b = 7;
+        System.out.println("a = " + a + "; b = " + b);
+        b -= a;
+        a += b;
+        b = a - b;
+        System.out.println("a = " + a + "; b = " + b);
+    }
+
+    public static void task8() {
+        int a = 589;
+        int b = (a % 100) / 10;
+        System.out.println("a = " + a + " -> b = " + b);
     }
 }
